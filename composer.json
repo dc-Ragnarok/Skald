@@ -1,0 +1,17 @@
+{
+    "name": "ragnarok/skald",
+    "description": "Monolog handler for sending Discord webhooks using Fenrir",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ragnarok\\Skald\\": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "*",
+        "exan/fenrir": "^0.6.1",
+        "react/event-loop": "^1.4.0",
+        "discord-php/http": "dev-master@dev"
+    }
+}
